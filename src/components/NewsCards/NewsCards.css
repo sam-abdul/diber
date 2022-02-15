@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Supermercado+One&display=swap");
+h1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Supermercado One", cursive;
+  background-color: rgb(49, 96, 224);
+  color: white;
+  margin-right: 47%;
+  margin-left: 47%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: white;
+  color: black;
+}
+/*welocme screen*/
+.cater3-movingBG {
+  height: 100%;
+  height: 70%;
+  background-image: url(https://www.ukri.org/wp-content/uploads/2021/07/EPSRC-290721-BrainArtificialIntelligence-GettyImages-1186776186.jpg);
+  background-size: 125%;
+  background-repeat: repeat-x;
+  animation: animatedBackground 15s linear alternate infinite;
+}
+
+@keyframes animatedBackground {
+  0% { background-position: 0 0; }
+  50% { background-position: 50% 0; }
+  100% { background-position: 0 0; }
+}
+
+.flyinTxtCont {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 10%;
+    margin-left: 2em;
+}
+.flyIn {
+
+  color:#fff;
+  font-family: "Inter", sans-serif;
+  line-height:1.2em;
+  position:relative;
+text-shadow: 2px 2px 40px rgba(0,0,0,0.7);
+}
+.lineOne {
+  margin-top: 100px;
+transition-delay:.2s; 
+transition:.4s ease in;
+animation: txtFlyIn .3s linear;
+}
+.lineTwo {
+  transition-delay:.4s; 
+  transition:.6s ease in;
+  animation: txtFlyIn .6s linear;
+}
+.lineThree {
+  transition-delay:.6s; 
+  transition:.8s ease in;
+  animation: txtFlyIn .9s linear;
+  font-family: "Inter", sans-serif;
+  font-family: "Supermercado One", cursive;
+}
+.lineOne, .lineTwo{
+  font-size:50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.lineThree{
+  font-size: 110px;
+}
+@keyframes fadeIn{
+  0% { opacity:0;}
+  100% { opacity:1;}
+}
+@keyframes txtFlyIn{
+  0% { transform:translateX(-100%); }
+  100% { transform:translateX(0%); }
+}
+/*welocme screen*/
+.card {
+  justify-content: center;
+  border: 0.1px solid black;
+  margin: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 40px;
+  box-shadow: 0px 9px 21px -4px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 0px 9px 21px -4px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 9px 21px -4px rgba(0, 0, 0, 0.44);
+}
+.media {
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.carrier {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  color: white;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-family: "Supermercado One", cursive;
+}
+.back {
+  background-color: rgb(49, 96, 224);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.open {
+  background-color: rgb(187, 55, 187);
+  padding: 10px;
+  border-radius: 5px;
+}
+.particle {
+  width: 10%;
+}
+.tutorMain{
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 70px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.tutor {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+.tutor2 {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-top: -15px;
+}
+.one{
+  background-color: rgb(70, 70, 206);
+  padding: 20px;
+  margin-left:5px ;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.two{
+  background-color: rgb(228, 161, 37);
+  padding: 20px;
+  margin-left:5px ;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.three{
+  background-color: #fc6255;
+  padding: 20px;
+  margin-left:5px ;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.four{
+  background-color: #3dc981;
+  padding: 20px;
+  margin-left:5px ;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.five{
+  background-color: rgb(187, 55, 187);
+  padding: 20px;
+  margin-left:5px ;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.particle{
+  height: 100vh;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+.insta, .twit, .mail{
+  color: white;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-right: 44%;
+    margin-left: 44%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .tutor,
+  .tutor2 {
+    display: grid;
+    margin: 5%;
+  }
+  .tutor2{
+    margin-top: -20px;
+  }
+  .one, .two,.three,.four.five{
+    margin-bottom: 10px;
+  }
+  .four{
+    margin-bottom: 10px;
+  }
+  
+  .lineThree{
+    padding-bottom: 30px;
+  }
+  .tutorMain{
+    display: grid;
+    margin: 5%;
+  }
+  .cater3-movingBG{
+    background-image: url(https://assets.weforum.org/project/image/UMeOzaDt-t-lQMXR7XBURdEjFNEDIdQrfZWYVfvLgiQ.jpg);
+  }
+  .card{
+    margin-left: -7%;
+    margin-right: -7%;
+    box-shadow: white;
+    padding: -10px;
+    border: 2px solid black;
+  }
+  .carrier{
+    margin-bottom: 5%;
+    box-shadow: none;
+    box-shadow: none;
+  }
+}

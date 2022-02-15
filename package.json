@@ -3,13 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.30",
+    "@fortawesome/fontawesome-svg-core": "^1.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.0.0",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0",
+    "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "react-icons": "^4.3.1",
+    "react-scripts": "^5.0.0",
+    "react-tsparticles": "^1.41.0",
+    "react-video-js-player": "^1.1.1",
+    "redux": "^4.1.2",
+    "save": "^2.4.0",
+    "video-react": "^0.15.0",
+    "web-vitals": "^2.1.4",
+    "words-to-number": "^1.1.0",
+    "words-to-numbers": "^1.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
